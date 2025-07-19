@@ -196,5 +196,4 @@ def set_webhook():
     r = requests.get(webhook_url)
     return {"status": "Webhook establecido", "respuesta": r.text}, 200
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+
