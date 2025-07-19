@@ -191,7 +191,7 @@ def index():
 # Establecer el webhook de Telegram
 @app.route("/set_webhook", methods=["GET"])
 def set_webhook():
-    base_url = "https://TU_DOMINIO_RENDER.onrender.com"  # <--- Cambia por el real
+    base_url = "https://detallado-bot.onrender.com"  # <--- Cambia por el real
     webhook_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/setWebhook?url={base_url}/webhook"
     r = requests.get(webhook_url)
     return {"status": "Webhook establecido", "respuesta": r.text}, 200
