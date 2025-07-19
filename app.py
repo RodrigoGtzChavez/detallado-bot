@@ -18,6 +18,7 @@ app = Flask(__name__)
 @app.route("/webhook", methods=["POST"])
 def telegram_webhook():
     data = request.get_json()
+    print("Mensaje recibido:", data)  # <--- Esto mostrará el chat_id en los logs de Render
     if not data:
         return "No data received", 400
 
