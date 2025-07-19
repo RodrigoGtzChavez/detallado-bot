@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: detallado-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+      - key: GEMINI_API_KEY
+      - key: ADMIN_CHAT_ID
