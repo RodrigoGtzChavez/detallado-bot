@@ -18,7 +18,6 @@ app = Flask(__name__)
 @app.route("/webhook", methods=["POST"])
 def telegram_webhook():
     data = request.get_json()
-    print("Mensaje recibido:", data)  # <--- Esto mostrará el chat_id en los logs de Render
     if not data:
         return "No data received", 400
 
@@ -192,9 +191,11 @@ def index():
 # Establecer el webhook de Telegram
 @app.route("/set_webhook", methods=["GET"])
 def set_webhook():
-    base_url = "https://detallado-bot.onrender.com"  # <--- Cambia por el real
+    base_url = "https://TU_DOMINIO_RENDER.onrender.com"  # <--- Cambia por el real
     webhook_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/setWebhook?url={base_url}/webhook"
     r = requests.get(webhook_url)
     return {"status": "Webhook establecido", "respuesta": r.text}, 200
 
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
 
