@@ -6,7 +6,6 @@ import google.generativeai as genai
 # Variables de entorno
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
 
 # Configurar Gemini
 genai.configure(api_key=GEMINI_API_KEY)
@@ -150,38 +149,6 @@ IMPORTANTE: Siempre enfatiza que el servicio es unicamente A DOMICILIO, no en tr
 
     return "ok", 200
 
-# Webhook para recibir formulario del sitio web
-@app.route("/formulario", methods=["POST"])
-def recibir_formulario():
-    data = request.get_json()
-    if not data:
-        return {"error": "Sin datos"}, 400
-
-    nombre = data.get("nombre", "Desconocido")
-    telefono = data.get("telefono", "No especificado")
-    servicio = data.get("servicio", "Sin seleccionar")
-    mensaje = data.get("mensaje", "Sin mensaje")
-
-    texto_final = f"""
-📋 Nueva solicitud desde el sitio web:
-
-👤 Nombre: {nombre}
-📞 Teléfono: {telefono}
-🛠️ Servicio: {servicio}
-📝 Mensaje: {mensaje}
-"""
-
-    telegram_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    try:
-        r = requests.post(telegram_url, json={
-            "chat_id": ADMIN_CHAT_ID,
-            "text": texto_final
-        })
-        r.raise_for_status()
-        return {"status": "Mensaje enviado"}, 200
-    except Exception as e:
-        print("Error al enviar mensaje a Telegram:", e)
-        return {"error": "No se pudo enviar a Telegram"}, 500
 
 # Ruta básica para test
 @app.route("/", methods=["GET"])
@@ -198,4 +165,3 @@ def set_webhook():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
-
