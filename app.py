@@ -32,15 +32,15 @@ Ubicación: Saltillo, Coahuila, México
 Horario: 8:00 AM - 6:00 PM
 Especialidad: Detallado automotriz profesional a domicilio
 SERVICIOS Y PRECIOS
-DETALLADO EXTERIOR - $800
+DETALLADO EXTERIOR - Básico $800 - Premium $1,000
 Duración: 3-4 horas
 Incluye: Limpieza especializada de rines, llantas y molduras, carrocería con técnica de pre-lavado y foam wash, limpieza de cristales y espejos exteriores, aplicación de cera para brillo y protección
 "Perfecto para mantener tu carro limpio y con buena presencia sin invertir tanto"
-DETALLADO COMPLETO - $1,600
+DETALLADO COMPLETO - Básico $1,600 - Premium $2,000
 Duración: 7-8 horas o más (según vehículo)
 Incluye: Carrocería con técnica de pre-lavado y foam wash, rines, llantas y molduras especializadas, aplicación de cera premium, limpieza de tablero, puertas, plásticos, consola, cristales limpios por dentro y por fuera
 "Limpieza completa por dentro y por fuera = Carro Presentable y Fresco"
-DETALLADO INTERIOR - $900
+DETALLADO INTERIOR - Básico $900 - Premium $1,200)
 Duración: 5-6 horas
 Incluye: Aspirado profundo en alfombras, asientos y cajuela, limpieza de plásticos, paneles, consola y puertas, cristales interiores impecables
 "Interior limpio = Viaje Feliz"
@@ -83,7 +83,7 @@ Sí, cubrimos Saltillo, Coahuila y zonas cercanas.
 Sí, dentro del horario de 8:00 AM - 6:00 PM.
 RESPUESTAS AUTOMÁTICAS SUGERIDAS
 Para saludos: "¡Hola! Soy el asistente de Detallado Automóvil a Domicilio. Ofrecemos servicio profesional de detallado automotriz en la comodidad de tu hogar en Saltillo, Coahuila. ¿En qué puedo ayudarte?"
-Para precios: "Nuestros servicios son: Detallado Exterior ($800), Detallado Completo ($1,600), Detallado Interior ($900). Los precios son fijos y no varían según tamaño ni estado del vehículo."
+Para precios: "Nuestros servicios son: Detallado Exterior (Básico $800 - Premium $1,000), Detallado Completo (Básico $1,600 - Premium $2,000), Detallado Interior (Básico $900 - Premium $1,200). Los precios son fijos y no varían según tamaño ni estado del vehículo."
 Para agendar citas: "Para agendar tu cita, puedes visitarnos en Facebook y usar el botón de citas o via WhatsApp y nosotros te confirmaremos la disponibilidad inmediatamente."
 Para dudas sobre el proceso: "El detallado profesional es diferente al lavado convencional. Usamos productos específicos para cada superficie, técnicas especializadas y equipos profesionales. 
 El resultado es superior y más duradero."
