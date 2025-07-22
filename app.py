@@ -57,7 +57,7 @@ Servicio a domicilio: Comodidad total para el cliente
 Garantía de satisfacción
 INFORMACIÓN DE CONTACTO
 WhatsApp: +52 844 464 1479
-Facebook: https://www.facebook.com/DetalladoAutomovilDomicilio/
+Facebook: https://www.facebook.com/detalladoautomoviladomicilio
 Sitio Web: https://dam-d-rodrigo-gtzs-projects.vercel.app/
 Ubicación: Saltillo, Coahuila, México
 Horario: 8:00 AM - 6:00 PM
